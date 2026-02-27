@@ -1,0 +1,466 @@
+{
+  "users": [
+    {
+      "id": "user-maria-001",
+      "email": "maria@google.com",
+      "name": "María García",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
+      "roles": [
+        "user"
+      ],
+      "createdAt": {
+        "_seconds": 1700000000,
+        "_nanoseconds": 0
+      },
+      "have": [],
+      "want": []
+    },
+    {
+      "id": "user-juan-002",
+      "email": "juan@google.com",
+      "name": "Juan Pérez",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Juan",
+      "roles": [
+        "user"
+      ],
+      "createdAt": {
+        "_seconds": 1700100000,
+        "_nanoseconds": 0
+      },
+      "have": [],
+      "want": []
+    },
+    {
+      "id": "user-ana-003",
+      "email": "ana@google.com",
+      "name": "Ana López",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
+      "roles": [
+        "user"
+      ],
+      "createdAt": {
+        "_seconds": 1700200000,
+        "_nanoseconds": 0
+      },
+      "have": [],
+      "want": []
+    },
+    {
+      "id": "user-carlos-004",
+      "email": "carlos@google.com",
+      "name": "Carlos Ruiz",
+      "image": "https://api.dicebear.com/7.x/avataaars/svg?seed=Carlos",
+      "roles": [
+        "user"
+      ],
+      "createdAt": {
+        "_seconds": 1700300000,
+        "_nanoseconds": 0
+      },
+      "have": [],
+      "want": []
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-tomate-001",
+      "title": "Mejora de tomates resistentes a la sequía",
+      "description": "Este proyecto busca desarrollar y seleccionar variedades de tomate con mayor tolerancia al estrés hídrico, manteniendo una buena calidad organoléptica. Trabajaremos con variedades locales del sureste peninsular, realizando ensayos en parcelas de secano y comparando su rendimiento con variedades comerciales bajo diferentes regímenes de riego.\n\nObjetivos:\n- Identificar variedades locales con mayor tolerancia a la sequía\n- Establecer protocolos de selección participativa\n- Crear un banco de semillas de las mejores líneas obtenidas\n- Documentar los resultados para compartir con la comunidad",
+      "image": "https://images.unsplash.com/photo-1592841200221-a6898f307baa?w=400",
+      "owner": "user-maria-001",
+      "category": "Mejora vegetal",
+      "location": "Murcia, España",
+      "volunteersNeeded": 8,
+      "volunteerRequirements": "Se necesita disponer de un pequeño huerto o parcela (mínimo 10m²) con exposición solar directa. Experiencia previa en cultivo de tomates es deseable pero no imprescindible. Compromiso de documentar los resultados con fotos y mediciones semanales.",
+      "status": "OPEN",
+      "tags": [
+        "tomate",
+        "sequía",
+        "selección",
+        "variedades locales"
+      ],
+      "createdAt": {
+        "_seconds": 1706745600,
+        "_nanoseconds": 0
+      },
+      "updatedAt": {
+        "_seconds": 1706745600,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "proj-legumbres-002",
+      "title": "Red de conservación de legumbres autóctonas",
+      "description": "Proyecto colaborativo para localizar, multiplicar y conservar variedades de legumbres autóctonas que están en peligro de desaparición. Trabajaremos con judías, garbanzos, lentejas y habas que han sido cultivadas tradicionalmente en diferentes comarcas pero cuyo cultivo ha disminuido drásticamente.\n\nMetodología:\n- Prospección etnobotánica en zonas rurales\n- Cultivo en parcelas experimentales distribuidas\n- Caracterización morfológica y agronómica\n- Creación de fichas descriptivas para cada variedad\n- Distribución de semillas entre los participantes",
+      "image": "https://images.unsplash.com/photo-1515543904413-63637615cf5e?w=400",
+      "owner": "user-juan-002",
+      "category": "Conservación",
+      "location": "Castilla y León, España",
+      "volunteersNeeded": 15,
+      "volunteerRequirements": "Participantes de cualquier comunidad autónoma son bienvenidos. Se valorará tener acceso a agricultores mayores que puedan proporcionar semillas tradicionales. Necesario disponer de terreno para el cultivo de al menos una variedad.",
+      "status": "OPEN",
+      "tags": [
+        "legumbres",
+        "conservación",
+        "biodiversidad",
+        "etnobotánica"
+      ],
+      "createdAt": {
+        "_seconds": 1707350400,
+        "_nanoseconds": 0
+      },
+      "updatedAt": {
+        "_seconds": 1707350400,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "proj-compost-003",
+      "title": "Ensayo comparativo de enmiendas orgánicas en hortícolas",
+      "description": "Proyecto de investigación participativa para comparar el efecto de diferentes enmiendas orgánicas (compost, vermicompost, bocashi, té de compost) en el rendimiento y calidad de cultivos hortícolas. Cada participante aplicará un protocolo estandarizado en su parcela y compartirá los datos.\n\nDiseño experimental:\n- 4 tratamientos + 1 control (sin enmienda)\n- Cultivos indicadores: lechuga, calabacín y pimiento\n- Mediciones de crecimiento, producción y análisis sensorial\n- Duración: una temporada completa (marzo-octubre)",
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400",
+      "owner": "user-ana-003",
+      "category": "Agroecología",
+      "location": "Toda España",
+      "volunteersNeeded": 20,
+      "volunteerRequirements": "Disponer de un huerto con al menos 20m² disponibles para el ensayo. Compromiso de seguir el protocolo experimental y enviar datos mensuales. No se requiere experiencia previa en investigación.",
+      "status": "OPEN",
+      "tags": [
+        "compost",
+        "fertilización",
+        "investigación",
+        "hortícolas"
+      ],
+      "createdAt": {
+        "_seconds": 1707955200,
+        "_nanoseconds": 0
+      },
+      "updatedAt": {
+        "_seconds": 1707955200,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "proj-polinizadores-004",
+      "title": "Atracción de polinizadores con plantas acompañantes",
+      "description": "Estudio colaborativo para determinar qué combinaciones de plantas aromáticas y flores atraen más polinizadores a los huertos. Los participantes instalarán parcelas de plantas acompañantes junto a sus cultivos y registrarán las visitas de insectos polinizadores.\n\nActividades:\n- Siembra de parcelas demostrativas con mezclas de aromáticas\n- Conteo y fotografiado de polinizadores semanalmente\n- Identificación de especies con guías proporcionadas\n- Comparación de producción con y sin plantas acompañantes",
+      "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=400",
+      "owner": "user-carlos-004",
+      "category": "Investigación",
+      "location": "España y Portugal",
+      "volunteersNeeded": 12,
+      "volunteerRequirements": "Tener un huerto activo donde instalar una pequeña parcela de aromáticas (2-3m²). Capacidad de tomar fotos con el móvil y anotar observaciones. Se proporcionarán semillas de las plantas acompañantes a los participantes.",
+      "status": "OPEN",
+      "tags": [
+        "polinizadores",
+        "biodiversidad",
+        "aromáticas",
+        "cultivo asociado"
+      ],
+      "createdAt": {
+        "_seconds": 1708560000,
+        "_nanoseconds": 0
+      },
+      "updatedAt": {
+        "_seconds": 1708560000,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "proj-patata-005",
+      "title": "Recuperación de la patata azul de Tenerife",
+      "description": "Proyecto de rescate y multiplicación de la emblemática patata azul canaria (Solanum tuberosum var. vitelotte). Esta variedad, de pulpa violácea y extraordinario valor nutricional, ha ido desapareciendo de los campos canarios. Buscamos agricultores locales que conserven tubérculos para iniciar un programa de multiplicación.\n\nFases:\n1. Localización de material vegetal (enero-marzo)\n2. Multiplicación inicial en vivero (abril-mayo)\n3. Ensayo en parcelas de colaboradores (junio-noviembre)\n4. Selección y distribución de tubérculos-semilla (diciembre)",
+      "image": "https://images.unsplash.com/photo-1518977676601-b28d6d5ec8e5?w=400",
+      "owner": "user-maria-001",
+      "category": "Conservación",
+      "location": "Islas Canarias, España",
+      "volunteersNeeded": 6,
+      "volunteerRequirements": "Residir en las Islas Canarias o tener acceso a terreno de cultivo en la zona. Experiencia en cultivo de patatas deseable. Capacidad de regar regularmente durante los meses de verano.",
+      "status": "IN_PROGRESS",
+      "tags": [
+        "patata",
+        "canarias",
+        "rescate varietal",
+        "tubérculos"
+      ],
+      "createdAt": {
+        "_seconds": 1704067200,
+        "_nanoseconds": 0
+      },
+      "updatedAt": {
+        "_seconds": 1706745600,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "proj-cereal-006",
+      "title": "Ensayo de trigos antiguos en agricultura ecológica",
+      "description": "Evaluación del comportamiento de variedades de trigo antiguo (espelta, escanda, kamut, trigo de Khorasan) en condiciones de agricultura ecológica. El objetivo es identificar variedades que ofrezcan buen rendimiento sin insumos químicos y tengan buenas cualidades panificables.\n\nCada participante recibirá semillas de 3-4 variedades y seguirá un protocolo común de siembra, manejo y cosecha. Se realizarán pruebas de panificación al finalizar.",
+      "image": "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400",
+      "owner": "user-juan-002",
+      "category": "Agronomía",
+      "location": "Meseta Central, España",
+      "volunteersNeeded": 10,
+      "volunteerRequirements": "Disponer de terreno agrícola (mínimo 100m²) en zona cerealista. Experiencia en cultivo de cereales. Compromiso de no aplicar fitosanitarios ni fertilizantes de síntesis.",
+      "status": "COMPLETED",
+      "tags": [
+        "trigo",
+        "cereal",
+        "ecológico",
+        "panificación"
+      ],
+      "createdAt": {
+        "_seconds": 1696118400,
+        "_nanoseconds": 0
+      },
+      "updatedAt": {
+        "_seconds": 1706745600,
+        "_nanoseconds": 0
+      }
+    }
+  ],
+  "project_memberships": [
+    {
+      "id": "memb-001",
+      "projectId": "proj-tomate-001",
+      "userId": "user-maria-001",
+      "role": "OWNER",
+      "status": "ACCEPTED",
+      "message": null,
+      "joinedAt": {
+        "_seconds": 1706745600,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-002",
+      "projectId": "proj-tomate-001",
+      "userId": "user-juan-002",
+      "role": "VOLUNTEER",
+      "status": "ACCEPTED",
+      "message": "Tengo experiencia con tomates en Alicante, me encantaría participar.",
+      "joinedAt": {
+        "_seconds": 1706832000,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-003",
+      "projectId": "proj-tomate-001",
+      "userId": "user-carlos-004",
+      "role": "VOLUNTEER",
+      "status": "PENDING",
+      "message": "Soy de Murcia y tengo una parcela de 50m². ¿Puedo unirme?",
+      "joinedAt": {
+        "_seconds": 1707004800,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-004",
+      "projectId": "proj-legumbres-002",
+      "userId": "user-juan-002",
+      "role": "OWNER",
+      "status": "ACCEPTED",
+      "message": null,
+      "joinedAt": {
+        "_seconds": 1707350400,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-005",
+      "projectId": "proj-legumbres-002",
+      "userId": "user-ana-003",
+      "role": "VOLUNTEER",
+      "status": "ACCEPTED",
+      "message": "Mi abuela conserva judías de toda la vida, creo que puedo aportar material interesante.",
+      "joinedAt": {
+        "_seconds": 1707436800,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-006",
+      "projectId": "proj-compost-003",
+      "userId": "user-ana-003",
+      "role": "OWNER",
+      "status": "ACCEPTED",
+      "message": null,
+      "joinedAt": {
+        "_seconds": 1707955200,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-007",
+      "projectId": "proj-compost-003",
+      "userId": "user-maria-001",
+      "role": "VOLUNTEER",
+      "status": "ACCEPTED",
+      "message": "Me interesa mucho comparar el bocashi con el compost tradicional.",
+      "joinedAt": {
+        "_seconds": 1708041600,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-008",
+      "projectId": "proj-polinizadores-004",
+      "userId": "user-carlos-004",
+      "role": "OWNER",
+      "status": "ACCEPTED",
+      "message": null,
+      "joinedAt": {
+        "_seconds": 1708560000,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-009",
+      "projectId": "proj-patata-005",
+      "userId": "user-maria-001",
+      "role": "OWNER",
+      "status": "ACCEPTED",
+      "message": null,
+      "joinedAt": {
+        "_seconds": 1704067200,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-010",
+      "projectId": "proj-patata-005",
+      "userId": "user-ana-003",
+      "role": "VOLUNTEER",
+      "status": "ACCEPTED",
+      "message": "Vivo en Tenerife y tengo contacto con agricultores de la zona norte.",
+      "joinedAt": {
+        "_seconds": 1704153600,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-011",
+      "projectId": "proj-cereal-006",
+      "userId": "user-juan-002",
+      "role": "OWNER",
+      "status": "ACCEPTED",
+      "message": null,
+      "joinedAt": {
+        "_seconds": 1696118400,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "memb-012",
+      "projectId": "proj-cereal-006",
+      "userId": "user-carlos-004",
+      "role": "VOLUNTEER",
+      "status": "ACCEPTED",
+      "message": "Tengo una finca en Segovia donde puedo hacer el ensayo.",
+      "joinedAt": {
+        "_seconds": 1696204800,
+        "_nanoseconds": 0
+      }
+    }
+  ],
+  "discussion_posts": [
+    {
+      "id": "disc-001",
+      "projectId": "proj-tomate-001",
+      "userId": "user-maria-001",
+      "userName": "María García",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
+      "content": "¡Bienvenidos al proyecto! Este es el foro de discusión donde podemos coordinar nuestro trabajo con los tomates resistentes a la sequía. Iré compartiendo el protocolo de ensayo en los próximos días.",
+      "createdAt": {
+        "_seconds": 1706745700,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "disc-002",
+      "projectId": "proj-tomate-001",
+      "userId": "user-juan-002",
+      "userName": "Juan Pérez",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Juan",
+      "content": "¡Hola María! Encantado de participar. Tengo 3 variedades locales de Alicante que podrían ser interesantes para el proyecto. ¿Queréis que os envíe fotos y datos?",
+      "createdAt": {
+        "_seconds": 1706832100,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "disc-003",
+      "projectId": "proj-tomate-001",
+      "userId": "user-maria-001",
+      "userName": "María García",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Maria",
+      "content": "¡Genial Juan! Sí, sería estupendo ver las variedades que tienes. Especialmente si hay alguna que hayas observado que aguanta bien los veranos secos. Comparte las fotos cuando puedas.",
+      "createdAt": {
+        "_seconds": 1706832200,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "disc-004",
+      "projectId": "proj-tomate-001",
+      "userId": "user-juan-002",
+      "userName": "Juan Pérez",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Juan",
+      "content": "Perfecto. Tengo el \"Tomate de la Pera\" que se cultiva en Novelda desde hace generaciones — aguanta bien sin mucha agua. También un cherry silvestre que encontré en una acequia seca. Os mando fotos esta semana.",
+      "createdAt": {
+        "_seconds": 1706918500,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "disc-005",
+      "projectId": "proj-legumbres-002",
+      "userId": "user-juan-002",
+      "userName": "Juan Pérez",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Juan",
+      "content": "¡Bienvenidos a la Red de Conservación de Legumbres! El primer paso será hacer un inventario de las variedades que cada uno tenga acceso. Por favor, compartid aquí qué legumbres locales conocéis o cultiváis.",
+      "createdAt": {
+        "_seconds": 1707350500,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "disc-006",
+      "projectId": "proj-legumbres-002",
+      "userId": "user-ana-003",
+      "userName": "Ana López",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
+      "content": "Mi abuela tiene unas judías blancas que lleva cultivando más de 40 años en un pueblo de Salamanca. Las llama \"judías de manteca\" por su textura. Puedo conseguir semillas si os interesa.",
+      "createdAt": {
+        "_seconds": 1707436900,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "disc-007",
+      "projectId": "proj-legumbres-002",
+      "userId": "user-juan-002",
+      "userName": "Juan Pérez",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Juan",
+      "content": "¡Extraordinario Ana! Las judías de manteca suenan fantásticas. ¿Sabes si alguna vez se han registrado o descrito formalmente? Sería importante tener fotos de la planta, la vaina y el grano.",
+      "createdAt": {
+        "_seconds": 1707523300,
+        "_nanoseconds": 0
+      }
+    },
+    {
+      "id": "disc-008",
+      "projectId": "proj-legumbres-002",
+      "userId": "user-ana-003",
+      "userName": "Ana López",
+      "userImage": "https://api.dicebear.com/7.x/avataaars/svg?seed=Ana",
+      "content": "No creo que estén registradas en ningún sitio. Son de esas variedades que se pasan de vecino en vecino. Iré este fin de semana a casa de mi abuela y haré fotos de todo. También tiene unos garbanzos negros muy curiosos.",
+      "createdAt": {
+        "_seconds": 1707609700,
+        "_nanoseconds": 0
+      }
+    }
+  ]
+}
