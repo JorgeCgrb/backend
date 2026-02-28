@@ -1,4 +1,4 @@
-import {CacheService} from "../../application/CacheService";
+import { CacheService } from "../../application/CacheService";
 
 interface CacheItem<T> {
     value: T;
@@ -10,6 +10,11 @@ export class InMemoryCacheService implements CacheService {
     private readonly DEFAULT_TTL = 24 * 60 * 60 * 1000; // 24 horas
 
     get<T>(key: string): T | null {
+        // Deshabilitar caché si estamos en el emulador para evitar problemas con el seed
+        if (process.env.FIRESTORE_EMULATOR_HOST) {
+            return null;
+        }
+
         const item = this.cache.get(key);
         const now = Date.now();
 
